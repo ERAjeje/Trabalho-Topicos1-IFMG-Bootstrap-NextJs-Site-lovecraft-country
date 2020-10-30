@@ -1,0 +1,22 @@
+.footerMain {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.divFooterH6 {
+    margin-top: 5rem;
+}
+
+.hboLogo {
+    width: 3rem;
+    background-color: #fff;
+}
+
+.divName {
+    font-size: xx-small;
+}

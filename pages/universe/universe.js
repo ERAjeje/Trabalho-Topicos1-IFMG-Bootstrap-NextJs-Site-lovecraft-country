@@ -1,10 +1,11 @@
-import Head from 'next/head';
+import React from 'react';
 
-import styles from '../styles/Home.module.css';
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+import Head from "next/head";
+import styles from '../../styles/Home.module.css';
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/Header";
 
-export default function Home() {
+export default function Universe() {
     return (
         <div className={styles.container}>
             <Head>
@@ -33,12 +34,10 @@ export default function Home() {
             <main className={styles.main}>
                 <Header />
 
-                <div className={styles.divTitle}>
-                    <span className={styles.spanTitle}>Bem-vindo ao</span> <img className={styles.logoTitle} src='/assets/images/logo.png'/>
-                </div>
+
 
             </main>
             <Footer className={styles.footerMain}/>
         </div>
-    )
+    );
 }

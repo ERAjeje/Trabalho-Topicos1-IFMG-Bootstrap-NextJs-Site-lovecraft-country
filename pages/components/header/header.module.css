@@ -1,0 +1,56 @@
+
+.header {
+    width: 100%;
+    flex: 1;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: AndroclesOpti-Heavy;
+}
+
+.image {
+    width: 5.5rem;
+    margin-left: 10%;
+}
+
+.navigator {
+    margin-right: 10%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navItem,
+.dropdownItem,
+.navbarBrand,
+.navItem:link,
+.dropdownItem:link,
+.navbarBrand:link {
+    color: #ffffff;
+}
+
+.navItem:hover,
+.navItem:active,
+.navbarBrand:hover,
+.navbarBrand:active {
+    color: #a4690c;
+}
+
+
+.dropdownMenu {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dropdownItem:hover {
+    color: #a4690c;
+    background-color: rgba(0,0,0,0.8);
+}
+
+@media (max-width: 800px){
+
+}
