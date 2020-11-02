@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && vercel --prod --lVGq5GXtSof1Oya3HWOOoMFd",
+    "build": "next build && next export && vercel --prod --token",
     "start": "next start"
   },
   "dependencies": {
