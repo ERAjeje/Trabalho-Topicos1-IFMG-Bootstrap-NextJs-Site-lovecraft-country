@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   background-image: url("../public/background_capa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff
 }
 

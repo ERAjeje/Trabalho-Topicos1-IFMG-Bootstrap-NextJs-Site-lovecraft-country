@@ -29,6 +29,16 @@ body {
   font-weight: 400;
   font-display: swap;
 }
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+
 a {
   color: inherit;
   text-decoration: none;

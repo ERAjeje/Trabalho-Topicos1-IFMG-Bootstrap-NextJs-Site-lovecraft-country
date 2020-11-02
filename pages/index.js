@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import HomeCarousel from './components/carousel/Carousel'
+import HomeCarousel from './components/carousel/Carousel';
 
 export default function Home() {
     return (
