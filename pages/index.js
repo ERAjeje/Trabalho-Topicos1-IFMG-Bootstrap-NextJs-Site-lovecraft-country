@@ -38,8 +38,9 @@ export default function Home() {
                     <span className={styles.spanTitle}>Bem-vindo ao</span> <img className={styles.logoTitle} src='/assets/images/logo.png'/>
                 </div>
                 <HomeCarousel />
+                <Footer className={styles.footerMain}/>
             </main>
-            <Footer className={styles.footerMain}/>
+            
         </div>
     )
 }

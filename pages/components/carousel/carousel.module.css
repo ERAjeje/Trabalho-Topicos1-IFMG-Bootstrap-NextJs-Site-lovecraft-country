@@ -8,3 +8,13 @@
     font-family: AndroclesOpti-Heavy;
     font-size: larger;
 }
+
+
+@media (max-width: 600px){
+    .divCarousel {
+        height: 200px;
+        margin-top: 3rem;
+        font-size: medium;
+        width: 70%;
+    }
+}

@@ -5,15 +5,16 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.2);
 }
 
 .divFooterH6 {
-    margin-top: 5rem;
+    margin-top: 0.5rem;
 }
 
 .hboLogo {
-    width: 3rem;
+    min-width: 3rem;
+    max-width: 3rem;
     background-color: #fff;
 }
 

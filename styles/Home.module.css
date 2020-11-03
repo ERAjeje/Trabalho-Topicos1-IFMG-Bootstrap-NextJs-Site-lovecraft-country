@@ -40,6 +40,7 @@
 
 .logoTitle {
   max-width: 20%;
+  min-width: 20%;
 }
 
 .footerMain {
@@ -56,5 +57,20 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .container {
+    background-image: url("../public/assets/images/background_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .spanTitle {
+    font-family: AndroclesOpti-Heavy;
+    font-size: large;
+  }
+
+  .logoTitle {
+    max-width: 35%;
   }
 }
