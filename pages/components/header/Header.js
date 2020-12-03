@@ -27,7 +27,7 @@ export default function Header() {
             <img className={css.image} src='/assets/images/logo.png'/>
             <Navbar className={css.navigator} expand='xl'>
                 <Link href="/"><NavbarBrand href="/" className={css.navbarBrand}>Home</NavbarBrand></Link>
-                <NavbarToggler onClick={toggleNavbar} />
+                <NavbarToggler className={css.navbarToggler} onClick={toggleNavbar} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto' navbar>
                         <NavItem>

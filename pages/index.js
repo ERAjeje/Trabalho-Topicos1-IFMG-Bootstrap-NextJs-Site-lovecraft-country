@@ -13,19 +13,13 @@ export default function Home() {
                 <link rel="icon" href="/mau-tchulhu.ico" />
                 <link
                     rel="preload"
-                    href="/fonts/LovecraftCountry-Regular.ttf"
+                    href="/fonts/PTSansNarrow-bold/PTSansNarrow-bold.ttf"
                     as="font"
                     crossOrigin=""
                 />
                 <link
                     rel="preload"
-                    href="/fonts/PTSansNarrow-bold.ttf"
-                    as="font"
-                    crossOrigin=""
-                />
-                <link
-                    rel="preload"
-                    href="/fonts/AndroclesOpti-Heavy.otf"
+                    href="/fonts/AndroclesOpti-Heavy/AndroclesOpti-Heavy.otf"
                     as="font"
                     crossOrigin=""
                 />
