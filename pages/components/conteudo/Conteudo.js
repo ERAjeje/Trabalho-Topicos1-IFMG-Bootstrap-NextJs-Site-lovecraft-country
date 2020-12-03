@@ -11,7 +11,7 @@ export default function Conteudo(props) {
         <h3 className={styles.title} >{title}</h3>
             <div className='row'>
                 <div className={`col-md-6 col-lg-4 pt-5 my-2`}>
-                    <img className={`img-responsive d-xs-none d-md-block`} src={image} alt={alt} width={250} height='auto' />
+                    <img className={`img-responsive d-none d-md-block`} src={image} alt={alt} width={250} height='auto' />
                 </div>
                 <div className='col-md-6 col-lg-8 pt-5 my-2'>
                     {text}
