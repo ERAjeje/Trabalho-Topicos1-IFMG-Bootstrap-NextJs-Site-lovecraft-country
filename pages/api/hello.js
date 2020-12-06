@@ -1,6 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-export default (req, res) => {
-  res.statusCode = 200
-  res.json({ name: 'John Doe' })
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2af2a2b6fde676184e741377d2fa62ac60d3fae071982eef5c4c617ed6490ce0
+size 168

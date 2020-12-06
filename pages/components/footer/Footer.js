@@ -1,14 +1,3 @@
-import React from 'react';
-import css from './footer.module.css'
-
-export default function Footer() {
-
-    return (
-        <div className={css.footerMain}>
-            <div className={css.divFooterH6}>
-                <h6>Uma série <a href='http://www.hbo.com.br'><img className={css.hboLogo} src='/assets/images/HBO_logo_black.png' /></a> </h6>
-            </div>
-            <div className={css.divName}><span>Site produzido por Edson Ajeje</span></div>
-        </div>
-    );
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d63b0298bd36eafc4528bf8f4237942657ec74cbbfa9ae411d7376f2ee0ebd29
+size 480

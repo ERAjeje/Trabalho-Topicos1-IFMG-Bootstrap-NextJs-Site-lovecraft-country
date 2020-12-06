@@ -1,20 +1,3 @@
-import React from 'react'
-import { Parallax, Background } from 'react-parallax';
-import Conteudo from '../conteudo/Conteudo'
-
-export default function ParallaxComponent(props) {
-    return (
-        <div>
-            <Parallax
-                blur={3}
-                bgImage={props.img}
-                bgImageAlt="Arthan Map"
-                strength={props.strength}
-            >
-                <div className='col-10 container-fluid' style={{ height: '743px' }} >
-                    <Conteudo title={props.title} image={props.photo} alt={props.alt} text={props.text} />
-                </div>
-            </Parallax>
-        </div>
-    )
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb21e1e21b627a2aa4ebaf3c55b1decc534938165f7fd4f1c4d30e9c23189d06
+size 646

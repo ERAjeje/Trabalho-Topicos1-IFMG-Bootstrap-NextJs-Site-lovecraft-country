@@ -1,20 +1,3 @@
-{
-  "name": "lovecraft-country",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.3",
-    "next": "10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-parallax": "^3.1.2",
-    "reactstrap": "^8.6.0",
-    "vercel": "^20.1.2"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96d74e1f7d081776623d291f4c630b28c64b6633bfad588f5a49c7d0813a5db5
+size 650
